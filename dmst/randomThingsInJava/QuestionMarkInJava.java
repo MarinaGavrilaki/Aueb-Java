@@ -59,6 +59,8 @@ public class QuestionMarkInJava {
      */
     public static void questionMarkAsTernaryOperatorNotUsed(int str1Length,
                                                       int str2Length) {
+        int maxStrLength = Math.max(str1Length,str2Length);
+        System.out.println(maxStrLength);
         /*
         if (str1Length > str2Length) {
             //It could be written simplier as: (str1.length() > str2.length())
@@ -69,10 +71,6 @@ public class QuestionMarkInJava {
         }
 
          */
-        int maxStrLength = Math.max(str1Length,str2Length);
-        System.out.println(maxStrLength);
-
-
     }
 
     /**
