@@ -62,6 +62,9 @@ public class QuestionMarkInJava {
         int maxStrLength = Math.max(str1Length,str2Length);
         System.out.println(maxStrLength);
         /*
+        An alternative - not very formal way to write the code.
+        */
+        /*
         if (str1Length > str2Length) {
             //It could be written simplier as: (str1.length() > str2.length())
             // but it's better to be clear.
